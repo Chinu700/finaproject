@@ -45,8 +45,8 @@ export default function LanguageUpdatePage() {
           <div className="flex flex-col gap-2">
             <label className="text-sm font-medium text-gray-400">Language Update</label>
             <div className="relative">
-              <select className="w-full px-4 py-2.5 bg-white border border-gray-200 rounded-md text-sm text-gray-500 appearance-none focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500">
-                <option value="" disabled selected>Select Language Update</option>
+              <select defaultValue="" className="w-full px-4 py-2.5 bg-white border border-gray-200 rounded-md text-sm text-gray-500 appearance-none focus:outline-none focus:border-blue-500 focus:ring-1 focus:ring-blue-500">
+                <option value="" disabled>Select Language Update</option>
                 <option value="english">English</option>
                 <option value="hindi">Hindi</option>
                 <option value="bengali">Bengali</option>

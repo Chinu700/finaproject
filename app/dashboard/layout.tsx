@@ -45,7 +45,7 @@ export default function DashboardLayout({ children }: { children: React.ReactNod
                             </Link>
                         </li>
                         <li>
-                            <Link href="#" className="flex items-center gap-3 px-6 py-3 text-gray-600 hover:bg-gray-50 text-sm font-medium border-l-4 border-transparent transition-colors">
+                            <Link href="/dashboard/reports" className={`flex items-center gap-3 px-6 py-3 text-sm font-medium border-l-4 transition-colors ${pathname === '/dashboard/reports' ? 'bg-[#EAF3FE] text-[#1964C4] border-[#1964C4]' : 'text-gray-600 hover:bg-gray-50 border-transparent'}`}>
                                 <FileText className="w-5 h-5" />
                                 Transaction Reports
                             </Link>

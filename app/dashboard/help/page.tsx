@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Send, ArrowUp } from "lucide-react";
+import { Send, ArrowUp, User } from "lucide-react";
 
 export default function HelpSupportPage() {
   return (
@@ -125,7 +125,9 @@ export default function HelpSupportPage() {
           {/* Input Area */}
           <div className="mt-8 border border-gray-300 rounded-lg p-3 flex items-center gap-3 bg-gray-50/50">
             <div className="w-8 h-8 rounded-full bg-gray-200 overflow-hidden shrink-0">
-               <Image src="/next.svg" width={32} height={32} alt="User" className="object-cover w-full h-full opacity-50" />
+               <div className="w-full h-full flex items-center justify-center bg-gray-200 text-gray-400">
+                 <User className="w-5 h-5" />
+               </div>
             </div>
             <input 
               type="text" 
